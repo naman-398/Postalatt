@@ -1,5 +1,6 @@
 @import url(../css/root.css);
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
 * {
     padding: 0;
     margin: 0;
@@ -21,7 +22,11 @@
 .cursor-pointer {
     cursor: pointer;
 }
-.d_none{display: none;}
+
+.d_none {
+    display: none;
+}
+
 .email-box {
     border-radius: 6px;
     border: 1px solid var(--grey3);
@@ -119,22 +124,27 @@
 .min_vh_md_100 {
     min-height: unset;
 }
-.gap-between-img{
+
+.gap-between-img {
     gap: 185px;
 }
-.img4{
+
+.img4 {
     position: absolute;
     left: 83%;
     top: 3%;
-z-index: 0;
+    z-index: 0;
 }
-.flex_row{
+
+.flex_row {
     flex-direction: row;
 }
-.flex_sm_column{
+
+.flex_sm_column {
     flex-direction: unset;
 }
-.flex_column{
+
+.flex_column {
     flex-direction: column;
 }
 
@@ -144,27 +154,34 @@ z-index: 0;
         min-height: 100vh;
     }
 }
+
 @media (max-width:500px) {
-    .gap-between-img{
-   gap: unset;
-   justify-content: space-between !important;
+    .gap-between-img {
+        gap: unset;
+        justify-content: space-between !important;
     }
-    .img4{
-      display: none;
+
+    .img4 {
+        display: none;
     }
-    .flex_column{
+
+    .flex_column {
         flex-direction: unset;
     }
-    .flex_sm_row{
+
+    .flex_sm_row {
         flex-direction: row;
     }
-    .flex_row{
+
+    .flex_row {
         flex-direction: unset;
     }
-    .flex_sm_column{
+
+    .flex_sm_column {
         flex-direction: column;
     }
-    .flex_wrap{
+
+    .flex_wrap {
         flex-wrap: wrap;
     }
 }
